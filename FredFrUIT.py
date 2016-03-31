@@ -68,8 +68,7 @@ class TimeSeries: # Class needs dataframe and title as arguments
 
 @loguser # Just a prompt to welcome the user (and log their activities ;)
 def welcomeLogin():
-    print '\nWelcome to a Front-end User Interface Test (FrUIT) \
-    \nof the Federal Reserve Economic Database (FRED) API.'
+    print '\nWelcome to a Front-end User Interface Test (FrUIT) \nof the Federal Reserve Economic Database (FRED) API.'
     
     user = raw_input('Please enter your name to begin session: ')
     loopMenuItems() # Calls the main workhorse for the program
